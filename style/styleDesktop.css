@@ -84,9 +84,13 @@
             }
             .footer {
                 display: grid;
-                grid-template-columns: 95% 5%;
+                grid-template-columns: 90% 10%;
                 grid-row: auto;
                 padding: 10px;
+            }
+            .footer img {
+                width: 30%;
+                margin-top: 2%;
             }
             #presentation,
             #contact {

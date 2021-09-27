@@ -11,11 +11,11 @@
 
         <div class="footer-i">
 
-            <a href="https://www.linkedin.com/in/mélanie-parmentier-133346182"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/mélanie-parmentier-133346182"> <img src="/../img/logo-lkd.png" alt=""> </a>
 
 
 
-            <a href="https://github.com/melanieprmntr"><i class="fab f09b fa-github"></i></a>
+            <a href="https://github.com/melanieprmntr"> <img src="/../img/logo git.png" alt=""> </a>
         </div>
 
 

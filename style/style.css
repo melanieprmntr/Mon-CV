@@ -272,11 +272,12 @@ form {
 .footer-i {
     display: grid;
     grid-template-columns: 50% 50%;
+    /* width: 20px; */
 }
 
-.footer i {
-    width: 100%;
-    color: white;
+.footer img {
+    width: 10%;
+    margin-top: 15%;
 }
 
 .main {

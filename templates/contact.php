@@ -19,7 +19,7 @@ include_once __DIR__ . "/../templateUtils/header.php";
                 formulaire de contact ci-dessous.
             </p>
 
-            <form action="#" method="post">
+            <form action="mail.php" method="post">
                 <div>
                     <label for="sexe">Civilité:</label>
                     <div>
@@ -31,20 +31,24 @@ include_once __DIR__ . "/../templateUtils/header.php";
                 </div>
                 <div>
                     <label for="name">Nom: </label><br>
-                    <input type="text" name="text" id="name">
+                    <input type="text" name="text" id="name" required>
                 </div>
                 <div>
                     <label for="firstname">Prénom: </label><br>
-                    <input type="text" name="text" id="firstname">
+                    <input type="text" name="text" id="firstname" required>
+                </div>
+                <div>
+                    <label for="phone">Téléphone: </label><br>
+                    <input type="phone" name="phone" id="phone" required>
                 </div>
                 <div>
                     <label for="emailinput">Email: </label><br>
-                    <input type="email" name="emailinput" id="emailinput" placeholder="contact@demo.fr">
+                    <input type="email" name="email" id="email" placeholder="contact@demo.fr" required>
                 </div>
                 <div>
                     <label for="message">Votre message:</label>
                     <br>
-                    <textarea name="text" id="message" cols="30" rows="10"></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10"required></textarea>
                 </div>
                 <br>
                 <div>

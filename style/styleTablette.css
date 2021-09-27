@@ -51,9 +51,15 @@
     }
     .footer {
         display: grid;
-        grid-template-columns: 95% 5%;
+        grid-template-columns: 90% 10%;
         grid-row: auto;
         padding: 10px;
+    }
+    .footer-i {
+        margin-top: 10%;
+    }
+    .footer img {
+        width: 30%;
     }
     #presentation,
     #contact {
@@ -141,9 +147,15 @@
     }
     .footer {
         display: grid;
-        grid-template-columns: 95% 5%;
+        grid-template-columns: 90% 10%;
         grid-row: auto;
         padding: 10px;
+    }
+    .footer-i {
+        margin-top: 15%;
+    }
+    .footer img {
+        width: 40%;
     }
     #presentation,
     #contact {
