@@ -59,7 +59,7 @@
         margin-top: 10%;
     }
     .footer img {
-        width: 30%;
+        width: 60%;
     }
     #presentation,
     #contact {
@@ -85,7 +85,7 @@
         padding: 5px;
     }
     .container {
-        width: 996px;
+        width: 896px;
         margin-left: auto;
         margin-right: auto;
     }

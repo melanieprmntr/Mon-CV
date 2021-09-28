@@ -37,11 +37,11 @@
                     </a>
                 </li> -->
 
-                <li class="color"><a href="/templates/presentation.php">A propos</a></li>
-                <li class="color"><a href="/templates/training.php">Formations</a></li>
-                <li class="color"><a href="/templates/skills.php">Compétences</a></li>
+                <li class="color"><a href="/#presentation">A propos</a></li>
+                <li class="color"><a href="/#training">Formations</a></li>
+                <li class="color"><a href="/#skills">Compétences</a></li>
 
-                <li class="color"><a href="/templates/experiences.php">Expériences</a></li>
+                <li class="color"><a href="/#experience">Expériences</a></li>
 
 
 

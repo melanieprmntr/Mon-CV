@@ -21,7 +21,7 @@
                     <div class="">Je connais</div>
                     <div class="">Je me forme</div>
                 </div>
-                <br>
+                <!-- <br> -->
                 <div class="grid">
 
 
@@ -56,6 +56,7 @@
 
             <div class="skillbar background-color">
                 <h3>Savoir-être</h3>
+                <br>
                 <div class="skillbar-title">Curiosité
                 </div>
                 <br>

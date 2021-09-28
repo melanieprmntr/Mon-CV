@@ -16,7 +16,7 @@
 
         <br>
         <hr>
-        <br>
+        <!-- <br> -->
 
         <div class="exp">
             <div class="img">
@@ -30,7 +30,7 @@
 
         <br>
         <hr>
-        <br>
+        <!-- <br> -->
 
         <div class="exp">
             <div class="img">
@@ -44,7 +44,7 @@
 
         <br>
         <hr>
-        <br>
+        <!-- <br> -->
 
         <div class="exp">
             <div class="img">
@@ -58,7 +58,7 @@
 
         <br>
         <hr>
-        <br>
+        <!-- <br> -->
 
         <div class="exp">
             <div class="img">
@@ -72,7 +72,7 @@
 
         <br>
         <hr>
-        <br>
+        <!-- <br> -->
         
         <div class="exp">
             <div class="img">

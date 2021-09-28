@@ -14,7 +14,7 @@
                 <h4>Titre Professionnel Développeur Web/ Web Mobile </h4>
 
                 <li><i class="far fa-calendar-check"></i> Avril 2021 à Février 2022
-                    <i class="fas fa-map-marker-alt"></i> Formation en distanciel
+                    <i class="fas fa-map-marker-alt"></i> Formation en distanciel en cours
                 </li>
                 <li>
                     Apprentissage du Html, Css, Php, Javascript, Java, Wordpress
