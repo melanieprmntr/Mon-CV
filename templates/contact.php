@@ -18,7 +18,7 @@ include_once __DIR__ . "/../templateUtils/header.php";
             <p>Je suis joingnable par <phone><i class="fas fa-phone"> 06 73 57 59 33</i> </phone> , par <a href="mailto:melanie.parmentier@outlook.fr"><i class="far fa-envelope"></i></a> ou via le
                 formulaire de contact ci-dessous.
             </p>
-
+            <?php include('mail.php'); ?>
             <form action="mail.php" method="post">
                 <div>
                     <label for="sexe">Civilité:</label>

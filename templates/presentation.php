@@ -18,7 +18,7 @@
             <br>
             <br>
             <i class="fas fa-chalkboard"></i>
-            J'ai souhaité poursuivre dans cette voie en me ré-orientant en tant que développeuse web. J'ai commencé maformation en autodidacte en octobre 2020.
+            J'ai souhaité poursuivre dans cette voie en me ré-orientant en tant que développeuse web. J'ai commencé ma formation en autodidacte en octobre 2020.
             Grâce à plusieurs sites comme celui de la Wild Code School, j'ai pu découvrir les bases du développement web et créer mon premier site en une semaine.
             Puis, j'ai poursuivi mon apprentissage du développement web avec les vidéos de Grafikart ( un grand merci à Jonathan Boyer pour toutes ses vidéos) et en effectuant des recherches en parrallèle sur internet.
             <br>
