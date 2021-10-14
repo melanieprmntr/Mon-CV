@@ -1,61 +1,43 @@
-// let age = prompt('Quel est votre age');
+(function() {
 
-// if (age<18 ){
-//     alert('Vous nêtes pas majeur')
-// }
+    var scrollY = function() {
+        var supportPageOffset = window.pageXOffset !== undefined;
+        var isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
+        return supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
+    }
 
-// class Carousel {
-//     constructor(element, options = {}) {
-//         this.element = element
-//         this.options = Object.assign({}, {
-//             slidesToScroll: 1,
-//             slidesVisible: 1
-//         }, options)
-//         let children = [].slice.call(element.children)
-//        this.root = this.createDivWithClass('carousel')
-//         this.container = this.createDivWithClass('carousel__container')
-//         root.appendChild(this.container)
-//         this.element.appendChild(root)
-//         this.items = children.map((child) => {
-//             let item = this.createDivWithClass('carousel__item')
-//             item.appendChild(child)
-//             this.container.appendChild(item)
-//             return item
-//         });
-//         this.setStyle()
-//     }
+    var element = document.querySelector('.navbar')
+    var rect = element.getBoundingClientRect()
+    var top = rect.top + scrollY()
+    var fake = document.createElement('div')
+    fake.style.width = rect.width + "px"
+    fake.style.height = rect.height + "px"
+    var onScroll = function() {
+        var hasScrollClass = element.classList.contains('fixed')
+        if (scrollY() > top && !hasScrollClass) {
+            element.classList.add('fixed')
+            element.style.width = rect.width + "px"
+            element.parentNode.insertBefore(fake, element)
+        } else if (scrollY() < top && hasScrollClass) {
+            element.classList.remove('fixed')
+            element.parentNode.removeChild(fake)
+        }
+    }
 
-//     setStyle() {
-//         let ratio = this.items.length / this.options.slidesVisible;
-//         this.container.style.width = (ratio * 100) + "%"
-//         this.items.forEach(item => item.style.width = ((100 / this.options.slidesVisible) / ratio) + "%");
-//     }
+    var onResize = function() {
+        element.style.width = "auto"
+        element.classList.remove('fixed')
+        fake.style.display = "none"
+        rect = element.getBoundingClientRect()
+        top = rect.top + scrollY()
+        fake.style.width = rect.width + "px"
+        fake.style.height = rect.height + "px"
+        fake.style.display = "block"
+        onScroll()
+    }
 
-//     createDivWithClass(className) {
-//         let div = document.createElement('div')
-//         div.setAttribute('class', className)
-//         return div
-//     }
 
-//     createNavigation(){
-//         let nextButton = this.createDivWithClass('carousel__next')
-//         let prevButton = this.createDivWithClass('carousel__prev')
-//         this.root.appendChild(nextButton)
-//         this.root.appendChild(prevButton)
 
-//     }
-
-//     next(){
-
-//     }
-
-//     prev(){
-
-//     }
-// }
-
-// new Carousel(document.querySelector('#carousel'), {
-//     slidesToScroll: 3,
-//     slidesVisible: 3
-
-// })
+    window.addEventListener('scroll', onScroll)
+    window.addEventListener('resize', onResize)
+})()

@@ -1,11 +1,12 @@
-@media screen and (min-width: 700px) and (max-width: 1000px) {
+@media screen and (min-width: 700px) and (max-width: 999px) {
     * {
         font-size: 14px;
     }
     .header-bg {
-        background-image: url("/img/bannierecvMedium.png");
-        background-size: contain;
-        height: 300px;
+        background-image: url("../img/bannierecvMedium.png");
+        background-size: cover;
+        background-position: center;
+        height: 255px;
     }
     .dropdownmenu {
         display: grid;
@@ -52,6 +53,12 @@
     .yellow {
         text-align: center;
     }
+    .yellow p {
+        text-align: center;
+    }
+    form {
+        margin-right: -60px;
+    }
     .footer {
         display: grid;
         grid-template-columns: 90% 10%;
@@ -64,10 +71,6 @@
     .footer img {
         width: 60%;
     }
-    #presentation,
-    #contact {
-        margin-top: -75px;
-    }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1650px) {
@@ -75,9 +78,9 @@
         font-size: 16px;
     }
     .header-bg {
-        background-image: url("/img/bannierecvMedium.png");
-        background-size: contain;
-        height: 400px;
+        background-image: url("../img/bannierecvMedium.png");
+        background-size: cover;
+        height: 350px;
     }
     .dropdownmenu {
         display: grid;
@@ -99,11 +102,11 @@
         position: relative;
     }
     .title-main-left {
-        left: 20px;
-        top: 20px;
+        left: 150px;
+        top: 50px;
     }
     .title-main-right {
-        left: 750px;
+        left: 1000px;
         top: 50px;
     }
     .title-main h2 {
@@ -111,13 +114,22 @@
         margin-top: 35px;
         font-size: large;
     }
+    .title-main-left-darkblue {
+        left: 150px;
+        top: 50px;
+        width: 250px;
+        height: 100px;
+        display: inline-block;
+        position: relative;
+        padding-top: 15px;
+    }
     .title-main-left-darkblue h2 {
         text-align: center;
-        margin-top: 10px;
+        margin-top: 20px;
         font-size: large;
     }
     .skills {
-        padding-top: 80px;
+        padding-top: 60px;
         font-size: large;
         text-align: center;
         display: grid;
@@ -140,8 +152,12 @@
         padding-left: 25%;
         padding-top: 10%;
     }
-    .yellow div {
+    .yellow div,
+    .yellow p {
         text-align: center;
+    }
+    form {
+        margin-right: -60px;
     }
     .container article {
         padding-top: 30px;
@@ -155,13 +171,9 @@
         padding: 10px;
     }
     .footer-i {
-        margin-top: 15%;
+        margin-top: 8%;
     }
     .footer img {
         width: 40%;
-    }
-    #presentation,
-    #contact {
-        margin-top: -150px;
     }
 }

@@ -8,7 +8,7 @@
     <div class="container lightblue">
         <div class="exp">
             <div class="img">
-                <img src="/img/cropped-logo-m2i-formation-diplomante-negatif-contour.png" alt="">
+                <img src="../img/cropped-logo-m2i-formation-diplomante-negatif-contour.png" alt="">
             </div>
             <div>
                 <h4>Titre Professionnel Développeur Web/ Web Mobile </h4>
@@ -46,7 +46,7 @@
         <br>
         <div class="exp">
             <div class="img">
-                <img src="/../img/lahotoie.png" alt="">
+                <img src="../img/lahotoie.png" alt="">
             </div>
             <div>
                 <h4>BTS Management des Unités Commerciales</h4>
@@ -62,7 +62,7 @@
         <br>
         <div class="exp">
             <div class="img">
-                <img src="/../img/JBDelambre.jpg" alt="">
+                <img src="../img/JBDelambre.jpg" alt="">
             </div>
             <div>
                 <h4>Baccalauréat Économique et Social</h4>

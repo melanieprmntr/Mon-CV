@@ -9,11 +9,11 @@
                 <h3>Développement web</h3>
                 <div class="grid">
 
-                    <img src="/../img/html.png" alt="">
+                    <img src="../img/html.png" alt="">
 
-                    <img src="/../img/CSS.png" alt="">
+                    <img src="../img/CSS.png" alt="">
 
-                    <img src="/../img/WordPress.png" alt="">
+                    <img src="../img/WordPress.png" alt="">
 
                 </div>
                 <div class="grid">
@@ -25,11 +25,11 @@
                 <div class="grid">
 
 
-                    <img src="/../img/php.png" alt="">
+                    <img src="../img/php.png" alt="">
 
-                    <img src="/../img/JS.png" alt="">
+                    <img src="../img/JS.png" alt="">
 
-                    <img src="/../img/logo-java.jpg" alt="">
+                    <img src="../img/logo-java.jpg" alt="">
 
                 </div>
 

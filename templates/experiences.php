@@ -6,7 +6,7 @@
     <div class="container lightblue">
         <div class="exp">
             <div class="img">
-                <img src="/../img/logoC&A.png" alt="">
+                <img src="../img/logoC&A.png" alt="">
             </div>
             <div class="text">
                 <h4>Conseillère de Vente</h4>
@@ -20,7 +20,7 @@
 
         <div class="exp">
             <div class="img">
-                <img src="/../img/Mango-logo.png" alt="">
+                <img src="../img/Mango-logo.png" alt="">
             </div>
             <div class="text">
                 <h4>Assistante Manager</h4>
@@ -34,7 +34,7 @@
 
         <div class="exp">
             <div class="img">
-                <img src="/../img/AT-logo.png" alt="">
+                <img src="../img/AT-logo.png" alt="">
             </div>
             <div class="text">
                 <h4>Directrice de Magasin</h4>
@@ -48,7 +48,7 @@
 
         <div class="exp">
             <div class="img">
-                <img src="/../img/logoC&A.png" alt="">
+                <img src="../img/logoC&A.png" alt="">
             </div>
             <div class="text">
                 <h4>Assistante Manager</h4>
@@ -62,7 +62,7 @@
 
         <div class="exp">
             <div class="img">
-                <img src="/../img/logo-KIABI2.png" alt="">
+                <img src="../img/logo-KIABI2.png" alt="">
             </div>
             <div class="text">
                 <h4>Conseillère de Vente</h4>
@@ -76,7 +76,7 @@
         
         <div class="exp">
             <div class="img">
-                <img src="/../img/xanaka-logo.png" alt="">
+                <img src="../img/xanaka-logo.png" alt="">
             </div>
             <div class="text">
                 <h4>Conseillère de Vente</h4>

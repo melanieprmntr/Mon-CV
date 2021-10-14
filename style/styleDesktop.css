@@ -6,9 +6,9 @@
                 font-size: large;
             }
             .header-bg {
-                background-image: url("/img/banniereCV.png");
-                background-size: contain;
-                height: 600px;
+                background-image: url("../img/banniereCV.png");
+                background-size: cover;
+                height: 450px;
             }
             .dropdownmenu {
                 display: grid;
@@ -92,12 +92,11 @@
                 width: 30%;
                 margin-top: 15%;
             }
-            #presentation,
-            #contact {
-                margin-top: -100px;
-            }
             .yellow div {
-                margin-top: 50px;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .yellow p {
                 text-align: center;
             }
         }
