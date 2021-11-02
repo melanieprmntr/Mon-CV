@@ -3,14 +3,33 @@
         font-size: 14px;
     }
     .header-bg {
-        background-image: url("../img/bannierecvMedium.png");
+        /* background-image: url("../img/bannierecvMedium.png");
         background-size: cover;
-        background-position: center;
+        background-position: center; */
         height: 255px;
+        display: grid;
+        grid-template-areas: "c1 th2 th1";
+        grid-template-columns: 33% 33% 33%;
+    }
+    .cercle1 {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .header-bg h2 {
+        margin-top: 40%;
+        font-size: 20px;
+    }
+    .header-bg h1 {
+        margin-top: 50%;
+        margin-left: -15%;
+        font-size: 15px;
     }
     .dropdownmenu {
         display: grid;
-        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-columns: 15% 15% 15% 15% 20% 20%;
         padding-top: 15px;
     }
     .dropdownmmenu li {
@@ -22,9 +41,18 @@
         margin-right: auto;
     }
     .container article {
-        padding-top: 30px;
+        /* padding-top: 30px; */
         padding-left: 15px;
         padding-right: 10px;
+    }
+    .container :first-child {
+        margin-top: 4%;
+    }
+    .grid1h3 {
+        margin-top: 30px;
+    }
+    .item {
+        margin-top: 30px;
     }
     .title-main {
         width: 250px;
@@ -40,6 +68,7 @@
         left: 70px;
         top: 30px;
     }
+    .title-main h1,
     .title-main h2 {
         text-align: center;
         margin-top: 35px;
@@ -78,13 +107,32 @@
         font-size: 16px;
     }
     .header-bg {
-        background-image: url("../img/bannierecvMedium.png");
-        background-size: cover;
+        /* background-image: url("../img/bannierecvMedium.png");
+        background-size: cover; */
+        background-position: 20%;
         height: 350px;
+        display: grid;
+        grid-template-areas: "c1 th2 th1";
+        grid-template-columns: 28% 28% 28%;
+    }
+    .cercle1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 150px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .header-bg h2 {
+        margin-top: 30%;
+        font-size: 25px;
+    }
+    .header-bg h1 {
+        margin-top: 50%;
+        font-size: 20px;
     }
     .dropdownmenu {
         display: grid;
-        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-columns: 16% 16% 16% 16% 20% 20%;
         padding-top: 15px;
     }
     .dropdownmenu li {
@@ -109,6 +157,7 @@
         left: 1000px;
         top: 50px;
     }
+    .title-main h1,
     .title-main h2 {
         text-align: center;
         margin-top: 35px;
@@ -127,6 +176,9 @@
         text-align: center;
         margin-top: 20px;
         font-size: large;
+    }
+    .darkblue :first-child {
+        margin-top: 2%;
     }
     .skills {
         padding-top: 60px;
@@ -152,13 +204,22 @@
         padding-left: 25%;
         padding-top: 10%;
     }
-    .yellow div,
+    .grid1h3 {
+        margin-top: 50px;
+    }
+    .yellow :first-child {
+        margin-top: 50px;
+    }
+    .yellow h3,
     .yellow p {
         text-align: center;
     }
-    form {
-        margin-right: -60px;
+    .yellow img {
+        width: 20%;
     }
+    /* form {
+        margin-right: -60px;
+    } */
     .container article {
         padding-top: 30px;
         padding-left: 15px;

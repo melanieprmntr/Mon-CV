@@ -6,12 +6,14 @@
         return supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
     }
 
-    var element = document.querySelector('.navbar')
-    var rect = element.getBoundingClientRect()
-    var top = rect.top + scrollY()
-    var fake = document.createElement('div')
+    let element = document.querySelector('.navbar')
+    let rect = element.getBoundingClientRect()
+    let top = rect.top + scrollY()
+    let fake = document.createElement('div')
     fake.style.width = rect.width + "px"
     fake.style.height = rect.height + "px"
+
+
     var onScroll = function() {
         var hasScrollClass = element.classList.contains('fixed')
         if (scrollY() > top && !hasScrollClass) {
@@ -38,6 +40,14 @@
 
 
 
+
+
     window.addEventListener('scroll', onScroll)
     window.addEventListener('resize', onResize)
+
 })()
+
+let formIsSubmitted = document.querySelector('form')
+formIsSubmitted.addEventListener('submit', function() {
+    this.nextElementSibling.classList.add('visible')
+})

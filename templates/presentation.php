@@ -1,7 +1,5 @@
 <section id="presentation">
-
     <div class="title-main-left title-main">
-
         <h2># A propos</h2>
     </div>
     <div class="container darkblue">
@@ -31,5 +29,4 @@
             Référente formation des nouveaux collaborateurs (assistants managers et managers). -->
         </article>
     </div>
-
 </section>

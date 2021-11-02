@@ -24,10 +24,43 @@ header {
 }
 
 .header-bg {
-    background-image: url("../img/banniereCvSmall.png");
+    background-image: url("../img/banniereCV.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    /* background-color: #030428; */
     height: 90px;
+    display: grid;
+    grid-template-areas: "c1 th1" "c1 th2";
+    grid-template-columns: 29% 70%;
+    grid-template-rows: 48% 40%;
+}
+
+.cercle1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-image: url("/../img/melanie parmentier.jpg");
+    background-size: 220%;
+    background-position: 10% 35%;
+    margin-top: -10%;
+}
+
+.header-bg h1,
+h2 {
+    color: white;
+}
+
+.header-bg h1 {
+    /* margin-top: 10%; */
+    margin-top: 15%;
+    font-size: 15px;
+    grid-area: th1;
+}
+
+.header-bg h2 {
+    margin-top: -10%;
+    font-size: 20px;
+    grid-area: th2;
 }
 
 .navbar {
@@ -49,7 +82,7 @@ header {
 
 .dropdownmenu {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto;
     text-align: center;
 }
@@ -75,6 +108,17 @@ li {
     margin-top: -5px;
 }
 
+.colorBtnReturn a {
+    background-color: #187eaa;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    margin-top: -5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
 .dropdownmenu li:hover {
     display: block;
     border-radius: 5px;
@@ -92,12 +136,13 @@ li {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    padding: 25px;
-    /* min-height: 550px; */
+    padding: 15px;
     border-radius: 15px;
-    /* border: solid 1px #04001e67;
-    box-shadow: 5px 7px 2px #04001ea2; */
     text-align: justify;
+}
+
+.container :first-child {
+    margin-top: 5%;
 }
 
 .title-main {
@@ -113,6 +158,12 @@ li {
 }
 
 .title-main h2 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: medium;
+}
+
+.title-main h1 {
     text-align: center;
     margin-top: 15px;
     font-size: medium;
@@ -153,6 +204,10 @@ li {
     column-gap: 2%;
 }
 
+.exp h3 {
+    text-align: start;
+}
+
 .img {
     display: inline-flex;
 }
@@ -179,7 +234,8 @@ li {
     margin-left: -5px;
     margin-right: -5px;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 4%;
 }
 
 .grid img {
@@ -188,6 +244,15 @@ li {
     padding-left: 25%;
     padding-top: 10%;
     margin: 10px
+}
+
+.grid1 {
+    color: white;
+    text-align: center;
+}
+
+.grid1h3 {
+    margin-top: 10px;
 }
 
 .skillbar {
@@ -204,23 +269,17 @@ li {
 }
 
 .background-color {
-    background-color: #f5f5f57d;
+    background-color: #f5f5f5ba;
     color: black;
     border: 1px solid transparent;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-bottom: 5px;
     box-shadow: 1px 3px rgba(1, 1, 1, .1);
 }
 
-footer {
-    background: white;
-}
-
-h2 {
-    /* text-decoration: underline; */
+h2,
+h1 {
     padding-bottom: 20px;
-    /* font-family: 'Rock Salt', cursive;  */
-    font-size: 25px;
 }
 
 h3 {
@@ -229,15 +288,33 @@ h3 {
 
 .yellow {
     background-color: #E3BC3B;
-    padding: 100px;
+    padding: 20px;
+    color: #030428;
 }
 
-.yellow p {
-    margin-left: -60px;
-    margin-right: -60px;
-    margin-top: -20px;
+.yellow a {
+    color: #030428;
+    text-decoration: none;
 }
 
+.yellow a :hover {
+    color: white;
+}
+
+.yellow h3 {
+    text-align: justify;
+}
+
+.yellow div {
+    text-align: center;
+}
+
+.yellow img {
+    width: 20%;
+}
+
+
+/* 
 form {
     margin-left: -90px;
     margin-bottom: -60px;
@@ -245,25 +322,44 @@ form {
 
 form div {
     padding: 10px;
+} */
+
+
+/* .alertSuccess {
+    display: none;
 }
 
-label {
+.alertSuccess.visible {
+    display: block;
+} */
+
+
+/* label {
     margin: 2%;
-}
+} */
 
-input,
+
+/* input,
 textarea {
     border-radius: 10px;
     border: transparent;
     padding: 10px;
     background-color: white;
-}
+} */
 
 .footer {
     text-align: center;
     background-color: #030428;
     color: white;
-    height: 70px;
+    height: 100px;
+}
+
+p a {
+    text-align: center;
+}
+
+.footer a {
+    color: white;
 }
 
 .footer-i {
@@ -273,16 +369,34 @@ textarea {
 
 .footer img {
     width: 10%;
-    margin-top: 5%;
 }
 
+
+/* 
 .main {
     padding: 0 15px;
     max-width: 1080px;
     margin: 0 auto;
-}
+} */
 
 #contact,
 #experience {
     margin-bottom: 20px;
+}
+
+.mentionsLegales {
+    width: 250px;
+}
+
+.item {
+    margin-top: 20px;
+}
+
+.item img {
+    padding-left: 0;
+    align-self: center;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    border-radius: 20px;
 }

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="pjxLvdLIRzp_Fuizt0lhyRAWno5R0SQCBwNQ7Y6mylE" />
-    <meta name="description" content="Mélanie Parmentier, développeur web/web mobile, développeuse web à Lyon dans le Rhône, dév junior, développement web en Html, Css, Php, Javascript, Java et Wordpress, création de sites internet et applications mobiles, reconversion Titre Professionnel de Développeur Web et Web mobile">
+    <meta property="title" content="<?php echo $title ?>">
+    <meta name="description" content="<?php echo $description ?>">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -23,19 +23,17 @@
     <link rel="stylesheet" href="../style/styleDesktop.css">
     <link rel="stylesheet" href="../style/styleTablette.css">
     <script src="https://kit.fontawesome.com/6c0b530104.js" crossorigin="anonymous"></script>
-    <title>Mélanie Parmentier développeuse web</title>
+    <title><?php echo $title ?></title>
 </head>
-
 <body>
-
     <header>
         <div class="header-bg">
-
+            <div class="cercle1 c1"></div>
+            <h1 class="headerTitleH1 th1"><?= $h1?></h1>
+            <h2 class="headerTitleH2 th2">Mélanie Parmentier</h2>
         </div>
         <nav class="navbar">
-
             <div class="dropdownmenu">
-
                 <!-- <li><a href="/#presentation">
                         <div class="logoMP">
                             <div class="logoMPtext">
@@ -44,20 +42,15 @@
                         </div>
                     </a>
                 </li> -->
-
                 <li class="color"><a href="../#presentation">A propos</a></li>
-                <li class="color"><a href="../#training">Formations</a></li>
-                <li class="color"><a href="../#skills">Compétences</a></li>
-
+                <li class="color"><a href="../#formation">Formations</a></li>
+                <li class="color"><a href="../#competences">Compétences</a></li>
                 <li class="color"><a href="../#experience">Expériences</a></li>
-
-
-
+                <li class="color"><a href="../templates/realisation.php">Réalisations</a></li>
                 <li class="colorContact">
-
-                    <a href="../templates/contact.php">Contact</a>
+                    <!-- <a href="mailto:contact@melanie-parmentier-developpeur-web.fr">Contact</a> -->
+                    <a href="/../templates/contact.php">Contact</a>
                 </li>
-
             </div>
         </nav>
     </header>
